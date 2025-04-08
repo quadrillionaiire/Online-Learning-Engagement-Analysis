@@ -12,7 +12,7 @@ st.title("📊 MOOC Interactive EDA Dashboard")
 # Load Data 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('cleaned_data.csv')
+    df = pd.read_csv('dashboard/cleaned_data.csv')
     df['start_time_DI'] = pd.to_datetime(df['start_time_DI'], errors='coerce')
     df['last_event_DI'] = pd.to_datetime(df['last_event_DI'], errors='coerce')
     df['age'] = df['start_time_DI'].dt.year - df['YoB']
