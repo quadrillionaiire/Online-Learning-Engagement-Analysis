@@ -57,7 +57,4 @@ For an interactive experience and visual exploration of the findings, visit the 
 - User Activity Duration Distribution
 - Statistical Testing: Grade by Certification
 
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
